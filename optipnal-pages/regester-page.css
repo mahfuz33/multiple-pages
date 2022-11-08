@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(118, 182, 182);
+}
+.container{
+    width: 55%;
+    background-image: url(../Pictures/gray.jpg);
+    background-repeat: no-repeat;
+    background-size: 55rem;
+    border: 1px ;
+    border-radius: 20px;
+    margin:7rem auto;
+    text-align: center;
+}
+form input{
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 40px;
+    padding-top: 20px;
+}
+
+button{
+    padding: 10px;
+    margin: 35px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: brown;
+    color: bisque;
+}
+button:hover{
+    background-color: blanchedalmond;
+    color: crimson;
+}

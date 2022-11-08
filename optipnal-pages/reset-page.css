@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ font-family: 'Times New Roman', Times, serif;
+ background-color: rgb(236, 208, 208);
+}
+.container{
+    width: 60%;
+    background-image: url(../Pictures/imaginery.jpg);
+    background-repeat: no-repeat;
+    background-size: 55rem;
+    border: 1px ;
+    border-radius: 30px;
+    margin:120px auto;
+    text-align: center;
+}
+.container i{
+    font-size: 6rem;
+    padding: 10px;
+    margin-top: 30px;
+    color: brown;
+}
+.advice{
+    font-size: 22px;
+    color: rgb(186, 226, 7);
+}
+form input{
+    font-size: 22px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: none;
+}
+
+button{
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 27px;
+    padding: 15px;
+    border-color: none;
+    background-color: crimson;
+    color: #fff;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: beige;
+    color: crimson;
+}
